@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100;400&display=swap');
+    
+body{
+    background: #FFF5EE;
+    font-family: 'Roboto', sans-serif;
+   color: #0f141e;
+}
+
+.c{
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.info{
+    padding-bottom: 20px;
+    display: flex;
+}
+.info-text{
+    font-style: italic;
+    margin-left: 40px;
+    color: #86898f;
+}
+
+/* .connect{
+    background: NavajoWhite;
+    
+} */
+.work{
+background: #ebfeeb;
+}
+
+.family{
+    background:rgb(223, 146, 158);
+   
+}
+
+.avatar{
+    width: 250px;
+    border-radius: 20px;
+    box-shadow:4px 4px 14px rgba(0,0,0, 0.25);
+
+}
+.container{
+    max-width: 950px;
+    margin: auto;
+    padding: 15px;
+    padding-top: 30px;
+}
+.card h2{
+    margin-top: 0;
+}
+.btn{
+    background: goldenrod;
+    margin-top: 10px;
+    padding: 15px 20px;
+    /* font-family: inherit; */
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.btn:active{
+color: blue;
+    }
+
+a:active{
+    color: aquamarine;
+}
+
+.table{
+    width: 100%;
+    /* background: rgb(214, 250, 247); */
+    
+}
+.table td{
+    text-align: center;
+    padding-bottom: 5px;
+ 
+}
+.table td:hover{
+    background: yellow;
+}
+/* .table tbody tr:last-child{
+    background: #e6e481;
+} */
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898F;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row{
+margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .form-group {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 50%;
+
+/* width: calc(50% - 20px); */
+    /* display: inline-block; */
+}
+
+@media (max-width: 650px) {
+    .form-row{
+        margin-bottom: 10px;
+        display: block;
+        }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label{
+display: block;
+font-size: 14px;
+color: #86898F;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    font-family: inherit;
+    padding: 15px 0 10px;
+}
+/* .avatar{
+    position: fixed;
+    top: 0;
+    
+} */
+@media (max-width: 550px) {
+    body{
+        font-size: 0.7rem;
+    }
+    .container {
+        padding-top: 10px;
+            }
+    .avatar{
+       
+        width: 200px; 
+    }
+    
+    .info{
+        display: block;
+        text-align: center;
+
+    }
+}
